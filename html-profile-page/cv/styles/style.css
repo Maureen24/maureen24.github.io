@@ -1,0 +1,23 @@
+body {
+    background-color: brown;
+    color: white;
+
+}
+body, pre {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#image {
+    float: left;
+}
+
+ #top {
+    text-align: center;
+    display: inline;
+}
+
+.list-title {
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Feedback form</h1>
+    <form action="#" method="post" class="feedback-form">
+        <div class="content">
+            <label for="first-name">First name:</label>
+            <input type="text" name="first-name" id="first-name" required>
+
+            <label for="last-name">Last name:</label>
+            <input type="text" name="last-name" id="last-name" required>
+        </div>
+        <div class="content">
+            <label for="mail">E-mail:</label>
+            <input type="email" name="user_email" id="mail">
+        </div>
+        <div class="content">
+            <label for="age">Age:</label>
+            <select name="age" id="age">
+                <option value="select">--select--</option>
+                <option value="young">16 - 24 years</option>
+                <option value="adult">25 - 33 years</option>
+                <option value="mature-adult">34 - 40 years</option>
+                <option value="the-forties">Older than 40 years</option>
+            </select>
+        </div>
+        <div class="content">
+            <label for="msg">Message:</label>
+            <textarea name="user_message" id="msg" cols="30" rows="10" placeholder="Your comments go here..."></textarea>
+        </div>
+        <div>
+            <button type="submit" name="submit" id="send-btn">Send your feedback!</button>
+        </div>
+    </form>
+</body>
+</html>
